@@ -1,7 +1,7 @@
 import React from 'react'
 import { Circle } from 'react-konva'
-const size = 10
-const spacing = 2
+const size = 25
+const spacing = 8
 const Led = ({ red, green, blue, alpha, row, col }) => {
   return (
     <Circle

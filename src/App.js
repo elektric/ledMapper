@@ -3,8 +3,8 @@ import './App.css'
 import { Stage, Layer } from 'react-konva'
 import GifPlayer from 'react-gif-player'
 import PixelModel from './PixelModel'
-import gifData from './data/gif.json'
-import gifMario from './data/mario.gif'
+import gifData from './data/pikachu50.json'
+import gifMario from './data/pikachu.gif'
 
 function App () {
   const numberOfFrames = gifData.frameModelList.length
